@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    background-color: rgb(24, 24, 24);
+}
+header .tUno{
+    color: #ffffff;
+    font-size: 60px;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    border-bottom: 2px solid #000000;
+}
+
+.tDos h2{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    background-color: #000000;
+    font-family: sans-serif;
+    text-align: center;
+    border-bottom:3px solid #ffb300 ;
+    margin-top: -40px;
+}
+
+.tTres{
+    background-image: url(./img/fondo.jpg);
+    width: 800px;
+    height: 300px;
+    color: white;
+    margin-left: 260px;
+    margin-top: 60px;
+    padding: 20px;
+    line-height:40px;
+}
+.tTres h2{
+    text-align: center;
+    border-bottom: 2px solid #ffb300;
+    font-family: sans-serif;
+}
+.tTres #verCatalogo {
+    background-color: black;
+    border: 2px solid #ffb300;
+    color:white;
+    padding: 6px;
+    margin: 4px;
+}
+.tTres #verCatalogo:hover{
+    background-color: #ffb300;
+    color: black;
+}
+
+.tTres #guardado {
+    background-color: black;
+    border: 2px solid #ffb300;
+    color:white;
+    padding: 6px;
+}
+.tTres #guardado:hover{
+    background-color: #ffb300;
+    color: black;
+}
+
+/* catalogo */
+.productosEstilos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background-image: url(./img/fondo.jpg);
+    border: 2px solid #ffb300 ;
+    color: white;
+    margin: 60px;
+}
+.card .tituloCard{
+    text-align: center;
+    font-size: 30px;
+}
+.card .tituloCard2{
+    text-align: center;
+    font-size: 30px;
+    color: #ffb300 ;
+    margin-top: -20px;
+}
+
+.card .autorCard{
+    text-align: center;
+    font-size: 20px;
+    padding: 25px;
+   
+}
+
+.card .precioCard{
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+   
+}
+
+.card a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    background-color:#ffb300;
+    color: #000;
+    padding: 4px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-left: 80px;
+
+}
